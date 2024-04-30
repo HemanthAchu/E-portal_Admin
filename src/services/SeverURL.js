@@ -1,0 +1,1 @@
+export const SERVER_URL ="https://e-portal-server-1.onrender.com"
