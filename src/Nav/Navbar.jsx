@@ -19,7 +19,8 @@ function Navbars() {
            
             <Link to="/complaints"> <Button className='me-2  mb-1'>Compliants</Button></Link>
             <Link to="/wastereport"> <Button className='me-2  mb-1'>Waste reports</Button></Link>
-          
+            <Link to="/connect"> <Button className='me-2  mb-1'>Admin Status</Button></Link>
+            <Link to="/lists"> <Button className='me-2  mb-1'>Update List</Button></Link>
            
           </Nav>
         </Navbar.Collapse>

@@ -7,6 +7,9 @@ import Navbars from './Nav/Navbar'
 import Footer from './Footer/fotter'
 import Complaints from './Components/Complaints'
 import Wastereport from './Components/Wastereport.jsx'
+import Connect from './Components/connect.jsx'
+import Lists from './Components/Lists.jsx'
+
 function App() {
   
 
@@ -18,6 +21,8 @@ function App() {
   <Route path='/' element={<Home/>} />
   <Route path='/complaints' element={<Complaints/>} />
   <Route path='/wastereport' element={<Wastereport/>} />
+  <Route path='/connect' element={<Connect/>} />
+  <Route path='/lists' element={<Lists/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
